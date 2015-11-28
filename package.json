@@ -1,0 +1,32 @@
+{
+  "name": "ferry",
+  "version": "0.0.1",
+  "description": "Simple routing for React.js using Express middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "routing",
+    "react",
+    "router",
+    "react",
+    "express",
+    "middleware",
+    "react",
+    "express"
+  ],
+  "author": "Sterling Whitley",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "espionage": "^1.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4"
+  }
+}

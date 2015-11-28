@@ -1,6 +1,5 @@
 # Ferry
 Simple express middleware for server-side routing with React.
-
 ```
 npm install ferry
 ```
@@ -8,11 +7,14 @@ npm install ferry
 # Usage
 ##1. Call `ferry.route` with your configuration in the express `app.use` function to use ferry as middleware.
 ```js
-var Main = React.createFactory(require('./app/components/Main'));
-var ferry = require('./ferry.js');
+// ...
+var Main = React.createFactory(MainComponent);
+var ferry = require('ferry.js');
 var app = express();
 
 app.use(ferry.route({ /* config options */ }));
+
+// ...
 ```
 
 ### ferry.route options
